@@ -50,6 +50,7 @@ local options = {
   },
 
   extensions_list = { "themes", "terms" },
+  require("telescope").load_extension "flutter"
 }
 
 return options

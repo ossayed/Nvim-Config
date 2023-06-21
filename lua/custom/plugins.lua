@@ -53,8 +53,14 @@ local plugins = {
    'dart-lang/dart-vim-plugin' 
   },
   {
-    'thosakwe/vim-flutter'
-  },
+    'akinsho/flutter-tools.nvim',
+    lazy = false,
+    dependencies = {
+        'nvim-lua/plenary.nvim',
+        'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+    config = true,
+  }
 
 
 
