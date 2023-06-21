@@ -47,6 +47,17 @@ local plugins = {
     end,
   },
 
+
+  --Dart/flutter 
+  {
+   'dart-lang/dart-vim-plugin' 
+  },
+  {
+    'thosakwe/vim-flutter'
+  },
+
+
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
